@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./images/faviconLOGO OFICIAL.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    
 </head>
 <body>
     <header class="hero">
@@ -115,22 +116,111 @@
                 </div>
             </div>
         </section>
-        <form action="/my-handling-form-page" method="post">
-        <ul>
-         <li>
-           <label for="name">Nombre:</label>
-           <input type="text" id="name" name="user_name">
-         </li>
-         <li>
-           <label for="mail">Correo electrónico:</label>
-           <input type="email" id="mail" name="user_mail">
-         </li>
-         <li>
-           <label for="msg">Mensaje:</label>
-           <textarea id="msg" name="user_message"></textarea>
-         </li>
-        </ul>
-</form>
+        <section>
+            <div class="background__form">
+                <div class="img__form">
+                    <img src="/images/Yanina formulario.jpeg" alt="">
+                </div>
+            
+            <Form class="form">
+                <div class="form__container">
+                    <h2 class="form__title">Contactanos</h2>
+                    <input type="text" class="form__input" placeholder="Nombre">
+                    <input type="text" class="form__input" placeholder="Telefono">
+                    <input type="text" class="form__input" placeholder="Localidad">
+                   
+                    <textarea class="form__input form__input--message" placeholder="Hora de contacto" name="" id=""></textarea>
+                    <div class="wrap">
+                    <input class="radio__form" id="mono" type="radio" name="apoarte" value="Monotributo">
+                    <label for="mono">Soy monotributista</label>
+                  
+                    <input class="radio__form" id="rec" type="radio" name="apoarte" value="Recibo">
+                    <label for="rec">Soy Tengo Recibo de sueldo</label>
+                  
+                    <input class="radio__form" id="ninguno" type="radio" name="apoarte" value="Particular">
+                    <label for="ninguno">Ninguno de los dos</label>
+                    </div>
+                 
+                    <input type="submit" value="Enviar" class="form__cta">
+                </div>
+            </Form>
+            </div>
+        </section>
+        
+        <section class="asesoras">
+            <div class="asesoras__container container">
+                <img src="/images/arrowleft.svg" class="asesoras__arrow" id="before" alt="">
+                <section class="asesoras__body asesoras__body--show" data-id="1">
+                    <div class="asesoras__text">
+                        <h2 class="subtitle">Mi nombre es Yanina Sapag, <span class="asesoras__servicios">Asesora en Salud.</span></h2>
+                        <p class="asesoras__review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex optio facilis sequi reprehenderit maxime, repellendus soluta quis fuga molestias dolores cumque illo vitae. Optio in dignissimos voluptate fugiat veritatis consectetur. hola mundo, encontremos juntos la mejor opcion.</p>
+                    </div>
+                    <figure class="asesoras__picture">
+                        <img src="/images/Oficina1.jpg" class="asesoras__img" alt="">
+                    </figure>
+                </section>
+                <section class="asesoras__body" data-id="2">
+                    <div class="asesoras__text">
+                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="asesoras__servicios">Asesora en Salud.</span></h2>
+                        <p class="asesoras__review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex optio facilis sequi reprehenderit maxime, repellendus soluta quis fuga molestias dolores cumque illo vitae. Optio in dignissimos voluptate fugiat veritatis consectetur. hola mundo, encontremos juntos la mejor opcion.</p>
+                    </div>
+                    <figure class="asesoras__picture">
+                        <img src="/images/Oficina2.jpg" class="asesoras__img" alt="">
+                    </figure>
+                </section>
+                <section class="asesoras__body" data-id="3">
+                    <div class="asesoras__text">
+                        <h2 class="subtitle">Mi nombre es Andrea Garcia, <span class="asesoras__servicios">Asesora en Salud.</span></h2>
+                        <p class="asesoras__review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex optio facilis sequi reprehenderit maxime, repellendus soluta quis fuga molestias dolores cumque illo vitae. Optio in dignissimos voluptate fugiat veritatis consectetur. hola mundo, encontremos juntos la mejor opcion.</p>
+                    </div>
+                    <figure class="asesoras__picture">
+                        <img src="/images/Oficina3.jpg" class="asesoras__img" alt="">
+                    </figure>
+                </section>
+                <section class="asesoras__body" data-id="4">
+                    <div class="asesoras__text">
+                        <h2 class="subtitle">Mi nombre es Aldana Villa, <span class="asesoras__servicios">Asesora en Salud.</span></h2>
+                        <p class="asesoras__review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex optio facilis sequi reprehenderit maxime, repellendus soluta quis fuga molestias dolores cumque illo vitae. Optio in dignissimos voluptate fugiat veritatis consectetur. hola mundo, encontremos juntos la mejor opcion.</p>
+                    </div>
+                    <figure class="asesoras__picture">
+                        <img src="/images/Oficina4.jpg" class="asesoras__img" alt="">
+                    </figure>
+                </section>
+                <img src="/images/arrowright.svg" class="asesoras__arrow" id="next" alt="">
+            </div>
+        </section>
+        <section class="question container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, ad molestias,maiores aliquid odit inventore dolorem possimus.</p>
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Como realizo mi cambio de obra social?
+                            <span class="questions__arrow"><img src="/images/arrowup2.svg" class="questions__img" alt=""></span>
+                        </h3>
+                        <p class="questions__show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores beatae, neque voluptate culpa eaque saepe sed laboriosam soluta minus quaerat excepturi hic, enim repellat aspernatur doloremque cupiditate. Eligendi, cumque praesentium?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dignissimos magni omnis aperiam voluptate quibusdam temporibus atque hic pariatur repudiandae aliquam assumenda explicabo distinctio? A odio rerum est temporibus quisquam.</p>
+                    </div>
+                </article>
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿El tramite es gratis?¿existe algun costo?
+                            <span class="questions__arrow"><img src="/images/arrowup2.svg" class="questions__img" alt=""></span>
+                        </h3>
+                        <p class="questions__show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores beatae, neque voluptate culpa eaque saepe sed laboriosam soluta minus quaerat excepturi hic, enim repellat aspernatur doloremque cupiditate. Eligendi, cumque praesentium?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dignissimos magni omnis aperiam voluptate quibusdam temporibus atque hic pariatur repudiandae aliquam assumenda explicabo distinctio? A odio rerum est temporibus quisquam.</p>
+                    </div>
+                </article>
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cuanto demora el tramite en darme el alta en mi nueva obra social?
+                            <span class="questions__arrow"><img src="/images/arrowup2.svg" class="questions__img" alt=""></span>
+                        </h3>
+                        <p class="questions__show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores beatae, neque voluptate culpa eaque saepe sed laboriosam soluta minus quaerat excepturi hic, enim repellat aspernatur doloremque cupiditate. Eligendi, cumque praesentium?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dignissimos magni omnis aperiam voluptate quibusdam temporibus atque hic pariatur repudiandae aliquam assumenda explicabo distinctio? A odio rerum est temporibus quisquam.</p>
+                    </div>
+                </article>
+            </section>
+        </section>
     </main>
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
 </body>
 </html>

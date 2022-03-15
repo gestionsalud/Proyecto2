@@ -30,10 +30,11 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/header.jpg');
+    background-image: linear-gradient(180deg, #0000008c 0%, #00000060 100%), url('../images/header02.jpg');
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 50% 70%, 0 45%);
     z-index: -1;
+   
 }
 /*nav */
 .nav{
@@ -42,8 +43,8 @@ body{
     display: flex;
     align-items: center;
 }
-.nav__title{
-    font-weight: 300;
+.nav_title{
+        height: 50px;
 }
 .nav__link{
     margin-left: auto;
@@ -60,6 +61,7 @@ body{
 .nav__links{
     color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 .nav__menu{
     margin-left: auto;
@@ -78,10 +80,11 @@ body{
     max-width: 800px;
     display: grid;
     --padding-container:0;
+    margin-bottom: 5px;
     grid-auto-rows: max-content;
     align-content: center;
     gap: 1em;
-    padding-bottom: 100px;
+    padding-bottom: 350px;
     text-align: center;
 }
 .hero__title{
@@ -158,6 +161,7 @@ overflow: hidden;
 /*price*/
 .price{
     text-align: center;
+    
     
 }
 .img{
@@ -311,7 +315,7 @@ overflow: hidden;
     }
     .questions__padding {
         padding: 0;
-        transition: padding .2s;
+        transition: padding .3s;
         border: 1px solid #01799b;
         border-radius: 6px;
     }
@@ -348,6 +352,7 @@ overflow: hidden;
     .questions__show {
         text-align: left;
         height: 0;
+        transition: height .3s;
     }
     .questions__img {
         display: block;
